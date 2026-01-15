@@ -64,7 +64,7 @@ antigravity-kit/
 │   │   ├── ui-ux-pro-max/
 │   │   └── ...
 │   │
-│   ├── shared/             # Shared resources
+│   ├── .shared/            # Shared resources
 │   │   └── ui-ux-pro-max/  # UI/UX search database
 │   │       ├── data/       # CSV databases
 │   │       └── scripts/    # Python search tools
@@ -73,8 +73,6 @@ antigravity-kit/
 │       ├── request.md
 │       └── ui-ux-pro-max.md
 │
-├── doc.md                  # Skills documentation
-├── doc-Rules-Workflows.md  # Rules & Workflows documentation
 └── README.md               # This file
 ```
 
