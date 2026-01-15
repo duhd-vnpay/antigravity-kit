@@ -177,26 +177,25 @@ Workflows are step-by-step procedures. Invoke with slash command `/workflow-name
 
 ## 📦 Installation
 
-### Workspace-specific (recommended)
+### Using CLI (Recommended)
 
-Copy the `.agent` folder to your project root:
-
-```bash
-git clone https://github.com/vudovn/antigravity-kit.git
-cp -r antigravity-kit/.agent your-project/
-```
-
-### Global (all workspaces)
-
-Copy to the global directory:
+Install the `.agent` folder directly into your project using `npx`:
 
 ```bash
-# Skills
-cp -r antigravity-kit/.agent/skills ~/.gemini/antigravity/skills/
+# Navigate to your project
+cd your-project
 
-# Workflows
-cp -r antigravity-kit/.agent/workflows ~/.gemini/antigravity/workflows/
+# Install .agent folder
+npx antigravity-kit-cli init
 ```
+
+#### CLI Commands
+
+| Command | Description |
+|---------|-------------|
+| `npx antigravity-kit-cli init` | Install `.agent` folder into current directory |
+| `npx antigravity-kit-cli update` | Update `.agent` to the latest version |
+| `npx antigravity-kit-cli status` | Check installation status |
 
 ---
 

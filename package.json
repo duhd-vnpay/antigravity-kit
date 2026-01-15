@@ -1,0 +1,25 @@
+{
+  "name": "antigravity-kit-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to setup Antigravity Kit skills and MCPs",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "ag-kit": "./bin/index.js"
+  },
+  "keywords": [
+    "antigravity",
+    "cli",
+    "ai",
+    "agent"
+  ],
+  "author": "Do Van Vu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.3.3",
+    "giget": "^2.0.0",
+    "ora": "^8.2.0"
+  }
+}
